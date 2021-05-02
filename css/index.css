@@ -1,0 +1,455 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+/*header style*/
+
+body{
+    background-color: white;
+    margin: 50px;
+    font-family:'Montserrat', sans-serif; 
+    color:black;
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+  }
+
+.info{
+  display: inline-block;
+  height: 500px;
+  padding:5px;
+}
+.words{
+  width: 48%;
+}
+
+.words{
+  display:inline-block
+ 
+  }
+  
+.img{
+
+  width: 30%;
+  height: 100%;
+}
+
+
+#navigation {
+    display: flex;
+    width:45%;
+    flex-direction: row;
+    align-items:right;
+    justify-content: space-evenly;
+    color: black;
+    padding:10px;
+  }
+
+/*.navigation ul{
+  display: block;
+  flex-flow:column wrap;
+}*/
+
+
+
+.mylogo{
+    display: flex;
+    justify-content:start;
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+#header ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content:space-between;
+  width: 100%;
+  padding: right 25px;
+  margin: top 25px;
+  margin-right:10pt;
+  font-weight: 600;
+  color:tomato
+}
+
+.category{
+    color: black;
+  }
+
+/*section style*/
+
+
+
+
+.introduction{
+    
+    justify-content: left;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+.job{
+   
+    justify-content: left;
+    font-size: 50px;
+    font-weight: bold;
+    color:tomato;
+  }
+
+
+.whaticando{
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.email{
+    display:inline-block;
+    justify-content: flex-start;
+   
+}
+.hemailaddress{ 
+    padding-top: 5px;
+    
+
+}
+.Webstie{
+    display: inline-block;
+    justify-content: flex-start;
+  }
+
+.hwebsite{
+  display:inline-block;
+  justify-content: flex-start;
+ 
+}
+
+.hwebsiteaddress{
+  padding-top: 5px;
+  
+}
+
+.words{
+  display: inline-block;
+  width: 45%;
+  align-content: flex-start;
+}
+
+.mypic{
+    display: inline-block;
+    justify-content:space-around;
+    margin: 50px;
+    align-content: top;
+    width:150%;
+}*/
+
+.infobutton{
+  padding: 0.5em;
+  
+}
+
+#myskill{
+  font-size: 50px;
+  font-weight: 700;
+  color:tomato;
+}
+
+/*.skill{
+  display:flex;
+  margin-bottom: .5rem;
+}
+
+.skill-item {
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  padding:10px;
+  margin:2rem;
+
+  /*flex-grow: 1;
+  flex-basis: 0;
+  width:33%;
+}*/
+
+.skill{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
+  padding:10pt;
+  grid-auto-rows: minmax(300px, auto);
+  align-content:center;
+}
+.skill-item1{
+  grid-column: 0/ 3;
+  grid-row: 1;
+}
+.skill-item2{
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+.skill-item3{
+  grid-column: 3 / 3;
+  grid-row: 1;
+}
+
+
+#uxwork{
+  font-size: 50px;
+  font-weight: 700;
+  color: tomato;
+  width:100%;
+}
+
+.containerGrid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:40px;
+  padding:10pt;
+  margin:10px;
+
+  grid-auto-rows: minmax(300px, auto);
+
+
+}
+.project1-item{
+  grid-column: 1 / 2;
+  grid-row: 1;
+  width:100%;
+}
+.project1-words{
+  width:100%;
+  grid-column: 2/ 2;
+  grid-row: 1;
+}
+.project2-item{
+  width:100%;
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+.project2-words{
+  width:100%;
+  grid-column: 2/ 2;
+  grid-row: 2;
+}
+.project3-item{
+  grid-column:1/2;
+  grid-row:3;
+}
+.project3-words{
+  grid-column:2/2;
+  grid-row:3;
+}
+
+/*.project1{
+  display:flex;
+  margin-bottom: .5rem;
+}
+
+.project1-item {
+    display:flex;
+    flex-direction: column;
+    margin:2rem;
+  
+    flex-grow: 1;
+    flex-basis: 0;
+
+}
+
+.project2{
+  display:flex;
+  margin-bottom: .5rem;
+
+
+}
+
+.project2-item {
+    display:flex;
+    flex-direction: column;
+    margin:2rem;
+  
+    flex-grow: 1;
+    flex-basis: 0;
+   
+
+}
+
+.project3{
+  display:flex;
+  margin-bottom: .5rem;
+}
+
+.project3-item {
+    display:flex;
+    flex-direction: column;
+    margin:2rem;
+  
+    flex-grow: 1;
+    flex-basis: 0;
+
+}*/
+.button{
+  padding: 0.5em;
+
+}
+
+
+
+.viewall{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+
+/* footer styles */
+.footer{
+    display:flex;
+    width: 100%;
+    height: 300px;
+    background-color:tomato;
+    align-items: center;
+   
+  }
+
+.left{
+    list-style-type: none;
+    margin: 0 px;
+    flex-direction: column;
+    width: 30%;
+    color:white;
+    
+  
+    
+  }
+
+.middle{
+    margin: 0 px;
+    width: 50%;
+    color:white;
+    text-align: center;
+   
+  
+  }
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+  
+footer ul li {
+  float: left;
+}
+
+/**/
+footer ul li a{
+  padding: 10px;
+}
+    
+
+
+.right{
+    width: 10%;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+
+.inslogo{
+    width:20px;
+    height:20pxl;
+}
+.fblogo{
+    width:20px;
+    height:20pxl;
+}
+.twitter{
+    width:20px;
+    height:20pxl;
+}
+
+/*mobile media*/
+
+@media screen and (max-width: 600px){
+  html {
+    font-size: 1em;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  .skill{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    align-content: left;
+    padding:20pt;
+    grid-auto-rows: minmax(300px, auto);
+  }
+  .skill-item1{
+    grid-column: 1/ 1;
+    grid-row: 1;
+  }
+  .skill-item2{
+    grid-column: 1 / 1;
+    grid-row: 2;
+  }
+  .skill-item3{
+    grid-column: 1 / 1;
+    grid-row: 3;
+   }
+
+  .containerGrid{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 35px;
+    padding:20pt;
+    grid-auto-rows: minmax(300px, auto);
+    width:100%;
+  }
+
+   .project1-item{
+    grid-column: 1 / 1;
+    grid-row: 1;
+    width:100%;
+  }
+  .project1-words{
+    width:100%;
+    grid-column: 1/ 1;
+    grid-row: 2;
+  }
+  .project2-item{
+    grid-column: 1 / 1;
+    grid-row: 3;
+  }
+  .project2-words{
+    grid-column: 1/ 1;
+    grid-row: 4;
+  }
+  .project3-item{
+    grid-column: 1/ 1;
+    grid-row: 5;
+  }
+  .project3-words{
+    grid-column: 1/ 1;
+    grid-row: 6;
+  }
+  .words{
+    width:100%;
+  }
+  .img{
+    width:55%;
+    align-items: left;
+  
+  }
+  #navigation {
+    width:100%;
+    padding:10px;
+
+  }
+}
