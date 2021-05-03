@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
         <title>Yanming's portfolio</title>
-        <link rel="stylesheet" type="text/css" href="css\index.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
     </head>
 
     <body>
@@ -11,14 +11,30 @@
              <div class="container">
                  <img src="images\logo design.png" width="80" height="80" alt="Yanming Chen's portfolio" class="my logo"></img>
                 
-                 <div id="navigation" >
-                     <ul>
-                         <li class="category"><a href="#" style="text-decoration:none">Home</a></li>
-                         <li class="category"><a href="#info" style="text-decoration:none">About</a></li>
-                         <li class="category"><a href="#myskill" style="text-decoration:none">Skills</a></li>
-                         <li class="category"><a href="#uxwork" style="text-decoration:none">Projects</a></li>
-                         <li class="category"><a href="#" style="text-decoration:none">Contact</a></li>
-                     </ul>
+                 
+                 
+                <div class="navbar">
+                    
+                         <a href="#" style="text-decoration:none">Home</a>
+                         <a href="#info" style="text-decoration:none">About</a>
+                         <a href="#myskill" style="text-decoration:none">Skills</a>
+                         
+                         <div class="dropdown" id="navbarDropdown">
+                             <button class="dropbtn" onclick="myFunction()">Projects
+                            <i class="fa fa-caret-down"></i> 
+                        
+                            </button>
+                        
+                        
+                            <!--<li class="category"><a href="#" style="text-decoration:none">Contact</a></li>-->
+                        <div class="dropdown-content" id="myDropdown">
+                            <a  href="#">ONE BOUQUET APP</a>
+                            <a  href="#">ALSF REDESIGN</a>
+                            <a  href="#">EASY TRIP APP</a>
+                            <a href="#">MORE PROJECTS</a>
+                        </div>
+                        </div>
+                    
                 </div>
             </div>
         </nav>
@@ -55,12 +71,12 @@
                 <br>
                 <br>
                 <br>
-                <a href="https://drive.google.com/file/d/17OKt-L9gGoNMVjm7wsliQ06TjCB2wBd9/view?usp=sharing"><button class="infobutton">Download Resume</button></a>
+                <a href="https://drive.google.com/file/d/17OKt-L9gGoNMVjm7wsliQ06TjCB2wBd9/view?usp=sharing"><button class="button2">Download Resume</button></a>
             </div>
-        
+     
 
             <div class="info img">
-                <img src="images/profile.jpg" width="640px" height="auto" class="mypic"  >
+                <img src="images/mypic.png"  class="mypic"  >
             </div>
             
             <!--<div class = "info blank">
@@ -153,7 +169,7 @@
                     & safety of ordering flowers from home.
                     </p>
                     <br>
-                    <button class="button">
+                    <button class="button2">
                     View Project
                     </button>
                 
@@ -183,7 +199,7 @@
                     through the site. 
                     </p>
                     <br>
-                    <button class="button">
+                    <button class="button2">
                     View Project
                     </button>
                 
@@ -213,7 +229,7 @@
                         of where they want to visit.
                     </P>
                     <br>
-                    <button class="button">
+                    <button class="button2">
                         View Project
                     </button>
                 
@@ -230,11 +246,14 @@
         </section>
 
 
+<br>
+<br>
+<br>
+<br>       
+<br>
+<br>       
+<br>
 
-        <br>
-        <br>
-        <br>
-        <br>
 
     <footer class="footer">
         <div class="footer left">
@@ -271,9 +290,15 @@
 
     </footer>
 
-
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="js/index.js"></script>
-    <script src="js/themeChange.js"></script>
+    
+    <script>
+       
+        function myFunction() {
+          document.getElementById('myDropdown').classList.toggle('show');
+        }
+    </script>
 
     </body>
 </html>
